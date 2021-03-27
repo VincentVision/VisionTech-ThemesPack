@@ -1,0 +1,71 @@
+{
+    "name": "vttp",
+    "displayName": "VisionTech ThemesPack",
+    "description": "Thèmes VS Code par Vision Tech Gyver.",
+    "publisher": "VincentVision",
+    "license": "VVS",
+    "version": "0.1.0",
+    "galleryBanner": {
+        "color": "#3366FF",
+        "theme": "dark"
+    },
+    "homepage": "https://www.youtube.com/channel/UC0obaoAHO-BMgIXGjGoZHOA",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/VincentVision/VisionTech-ThemesPack"
+    },
+    "bugs": {
+        "url": "https://github.com/VincentVision/VisionTech-ThemesPack/issues"
+    },
+    "icon": "./assets/images/icon.png",
+    "keywords": [
+        "Vision Tech Gyver",
+        "Vincent Vision Studio",
+        "vtep",
+        "vt ep",
+        "vttp",
+        "vt tp",
+        "bot discord pack",
+        "High Contrast",
+        "hc",
+        "dark",
+        "dark+",
+        "cool",
+        "theme pack",
+        "semantic"
+    ],
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "High Contrast (VisionTech)",
+                "uiTheme": "hc-black",
+                "path": "./themes/High Contrast (VisionTech)-color-theme.json"
+            },
+            {
+                "label": "Dark+ (VisionTech)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark+ (VisionTech)-color-theme.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "visiontech-icon-theme",
+                "label": "VisionTech Icon Theme",
+                "path": "./icons.json",
+                "_watch": true
+            }
+        ],
+        "commands": [
+            {
+                "command": "Open Settings",
+                "title": "Commande pour rechercher le fichier {setting.json}"
+            }
+        ]
+    }
+}
